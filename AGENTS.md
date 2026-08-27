@@ -10,6 +10,7 @@ Build app UI in `src/`. Keep `.openai/hosting.json`, `worker/index.js`, `scripts
 
 ## Project decisions
 
-- The user requested all three visual directions, so keep Research Ledger, Field Systems, and Embodied Future available through the in-page preview switcher until one is selected.
+- Use one concise, conventional academic homepage. Keep the page factual, publication-first, and visually restrained; do not add theme switchers, slogans, manifestos, or oversized promotional sections.
 - Academic facts must remain conservative: the VIO benchmark is accepted at ICARCV 2026; the geometry-aware video re-rendering paper is second-author and under review at AAAI-27; the rejected ICML submission must not appear; the NTU dissertation is submitted and degree conferral is expected in December 2026.
-- Do not fabricate research photographs, robot setups, paper results, author lists, or publication links. Use real shareable media supplied by the user. The existing SLAM nine-case plot is approved local evidence.
+- For the AAAI manuscript, list only Yueying Zhu and identify her as the second author. Do not publish the other authors unless the user later approves it.
+- Never publish local plots, experiment outputs, photographs, screenshots, robot videos, or other media unless the user explicitly authorizes that exact asset for the public site. Missing media should remain absent, without fake or placeholder artwork.
